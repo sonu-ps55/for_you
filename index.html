@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>For You ❤️</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(to right, #fbc2eb, #a6c1ee);
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      text-align: center;
+      color: #333;
+    }
+    h1 {
+      font-size: 2.5rem;
+      color: #e91e63;
+    }
+    p {
+      font-size: 1.2rem;
+      margin: 20px;
+    }
+    button {
+      padding: 10px 20px;
+      border: none;
+      background-color: #ff4081;
+      color: white;
+      font-size: 1rem;
+      border-radius: 25px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+    button:hover {
+      background-color: #f50057;
+    }
+    #message {
+      margin-top: 30px;
+      font-size: 1.3rem;
+      color: #673ab7;
+      display: none;
+    }
+  </style>
+</head>
+<body>
+  <h1>Oyee Falak❤️</h1>
+  <p> This is just for you,because you matter to me,
+  to remind you how special you are to me.🌸</p>
+  <button onclick="showLove()">Chl Click kr 💌</button>
+  <div id="message">You know...You're strong, beautiful, and always in my heart 💖,
+    Main hamesha tumhare sath hun,chahe kuch bhi ho jaye.</div>
+
+  <script>
+    function showLove() {
+      document.getElementById('message').style.display = 'block';
+    }
+  </script>
+</body>
+</html>
